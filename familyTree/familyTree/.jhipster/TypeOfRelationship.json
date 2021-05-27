@@ -1,0 +1,18 @@
+{
+  "fields": [
+    {
+      "fieldName": "degreeOfKinship",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "30"
+    }
+  ],
+  "relationships": [],
+  "service": "serviceClass",
+  "dto": "no",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "pagination",
+  "name": "TypeOfRelationship",
+  "changelogDate": "20210526005024"
+}
